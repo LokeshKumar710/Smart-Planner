@@ -1,6 +1,6 @@
 # Paytm-Ai-Hackathon: Smart Planner, an AI business partner for street-food stalls
 
-Smart Planner (the project in this `Paytm-Ai-Hackathon` repository) helps small food-stall owners decide **what to make, how much, and when they will be busiest**, and helps **new merchants** decide what to sell before they open. It speaks the merchant's language (English, Hindi, Telugu), reads menus from photos, listens to spoken counts, and reminds them every evening about tomorrow.
+Smart Planner  helps small food-stall owners decide **what to make, how much, and when they will be busiest**, and helps **new merchants** decide what to sell before they open. It speaks the merchant's language (English, Hindi, Telugu), reads menus from photos, listens to spoken counts, and reminds them every evening about tomorrow.
 
 
 
@@ -15,7 +15,6 @@ Smart Planner (the project in this `Paytm-Ai-Hackathon` repository) helps small 
 | **Payments and Analytics** | Upload payment history (time and amount). Busy hours are measured per hour, and the lift from festivals, holidays and weather is measured from your own data. A lift is only used once the data supports it. |
 | **Sudden events** | Add a bandh, strike or road closure by hand, or let the app suggest events from local news. Suggestions never change the plan until you accept them. |
 | **Notifications** | Every evening at 8 pm, tomorrow's plan is written, translated and spoken aloud. It stays playable until the day is over. |
-| **Accounts** | Sign up and log in. All data endpoints need a login. |
 | **Languages** | Interface, messages and speech in English, Hindi and Telugu, switchable from the top bar or the login page. |
 
 ## How it works
