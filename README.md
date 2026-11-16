@@ -1,4 +1,4 @@
-Smart Planner, an AI business partner for street-food stalls
+## Smart Planner, an AI business partner for food stalls
 
 Smart Planner  helps small food-stall owners decide **what to make, how much, and when they will be busiest**, and helps **new merchants** decide what to sell before they open. It speaks the merchant's language (English, Hindi, Telugu), reads menus from photos, listens to spoken counts, and reminds them every evening about tomorrow.
 
