@@ -119,26 +119,3 @@ demo.py                   command-line demo of the planner
 smoke_test.py             calls each Sarvam model once to check access
 ```
 
-## Useful commands
-
-```bash
-python demo.py hi-IN                 # planner demo in Hindi
-python smoke_test.py                 # check which Sarvam models your key can use
-node tools/extract_strings.cjs       # after adding UI text, refresh the translation list
-```
-
-When new screen text is added, run the extractor and restart the server. It translates every string into each language in the background, and rejects any translation that loses a placeholder such as `{0}`.
-
-## Data and privacy
-
-- All stall data (menu, counts, payments, notifications) is stored locally in `data/stall.db`.
-- Only text needed for a task is sent to Sarvam: item names, short fact lists for messages, and photos you upload for menu reading. Photos are not stored.
-- Passwords are stored only as salted scrypt hashes.
-- Accounts are separate logins, but the stall data itself is shared by everyone who logs in to the same server. It is a single-stall app for now.
-
-## Known limitations
-
-- Festival dates cover **2026** only. Other years fall back to no festival effect.
-- Demand factors for weather and festivals are documented planning assumptions until your own data confirms them.
-- Only English, Hindi and Telugu are offered, since those are the languages the voice can speak.
-- Quantities for new stalls are starter estimates and are labelled as such.
